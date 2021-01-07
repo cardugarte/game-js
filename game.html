@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego con JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1 class="title">Adivina el número</h1>
+    <p class="instruction">Hola, gracias por aceptar este divertido reto. Te explico brevemente de que trata el juego:</p>
+    <p class="instruction">He seleccionado un número aleatorio entre 1 y 100. Fíjate si lo puedes adivinar en 10 turnos o menos. En cada intento te daré una pista que indica si <strong>tu número es más alto o más bajo</strong> Suerte!</p>
+    <div class="form">
+      <input type="text" placeholder="Un número entre 1 y 100" id="guessField" class="guessField">
+      <input type="submit" value="Enviar respuesta" class="guessSubmit">
+    </div>
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+</body>
+</html>
